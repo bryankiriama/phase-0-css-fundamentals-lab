@@ -3,3 +3,49 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 {text-align: center;}
+
+/* Center the image */
+img {
+  display: block;
+  margin:auto
+}
+
+ /* Style navigation links */
+ nav a{
+  padding: 0 10px;
+  background-color: lightgrey;
+  text-align: center;
+ }
+
+/* Style the image caption */
+figcaption {
+  font-size: 14px;
+  text-align: center;
+}
+
+/* style the nav */
+nav {
+  text-align: center;
+  padding: 5px 0;
+}
+
+/* style the fig caption */
+figcaption {
+  font-size: 14px;
+  text-align: center;
+}
+/*style the #featured-property */
+#featured-property p {
+  width: 800px;
+  text-align: center;
+  margin: 10px auto;
+}
+/*#details section horizontal*/
+#details div {
+  float: left;
+  text-align: center;
+  width: 25%;
+  background-color: orangered;
+  padding-left: 0px;
+}
